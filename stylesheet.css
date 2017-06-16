@@ -1,0 +1,177 @@
+.wrapper {
+
+}
+.container-fluid {
+	margin: 0;
+	padding: 0;
+	font-size: 30px;
+}
+
+/* ----- Cover Section ------ */
+.image1 {
+	margin-top: -80px;
+	background: no-repeat center center fixed;
+	position: relative;
+}
+.main-navbar {
+	position: absolute;
+	top: 37%;
+	left: 15%;
+	display: flex;
+	flex-direction: column;
+	border: solid 1px #b37400;
+	padding: 25px 30px;
+	background-color: rgba(26,26,26,0.45);
+	z-index: 100;
+}
+.main-navbar a {
+	margin: 15px;
+	color: #fff;
+	font-size: 18px;
+	border: solid #0d6c7c 2px;
+	background-color: rgba(13,108,124, 1.0);
+	font-family: Helvetica;
+}
+.main-navbar a:hover {
+	background-color: #1294aa;
+	border: solid #1294aa 2px;
+}
+
+.header {
+	position: absolute;
+ 	top: 4.4%;
+ 	left: 2%;
+ 	color: #fff;
+}
+.header h1 {
+   color: #fff;
+   padding: 0 auto;
+   position: relative;
+   left: 20px;
+}
+.lead {
+	font-size: 25px;
+	margin-bottom: 0;
+	margin-right: 50%;
+	font-family: 'Great Vibes';
+}
+
+
+.navbar {
+	z-index: 999;
+}
+
+
+
+
+
+/* ----- cards section ------ */
+.main-content h3 {
+	margin: 3% 0 5% 0;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.main-content {
+}
+.card1 img:hover {
+	transform: scale(1.05);
+	transition: 0.2s;
+}
+
+.card-set1 {
+	margin: 3% 10%;
+	font-size: 16px;
+}
+.card-set2 {
+	margin: 2% 8%;
+	font-size: 16px;
+}
+/* ----- footer ------ */
+
+input, textarea {
+	font-family:FontAwesome;
+}
+
+.img-wrapper {
+	position: relative;
+}
+.contact-info {
+	position: absolute;
+	top: 5%;
+	left: 1%;
+  	color: #fff
+}
+.contact-info h3 {
+	font-size: 20px;
+	font-family: sans-serif;
+	margin-bottom: 1px;
+}
+.btn-primary {
+	background-color: #0d6c7c;
+	border: #fff solid 1px;
+}
+.form1 {
+	position: absolute;
+	top: 25%;
+	left: 15%;
+}
+.copyright {
+	font-size: 12px;
+	color: #fff;
+	position: absolute;
+	bottom: -5px;
+	left: 10px;
+}
+.leave-comments {
+	position: absolute;
+	color: #fff;
+	top: 19%;
+	left: 38%;
+}
+textarea {
+	resize: none;
+}
+.email-line {
+	padding-top: 6px;
+}
+
+.contact-me a:hover{
+	background-color: lightblue;
+	border-color: lightblue;
+}
+.submit-form {
+	border: none;
+	display: block;
+	float: right;
+}
+.submit-form:hover {
+	background-color: lightblue;
+	color: #000;
+}
+
+/* ===== Media queries ===== */
+
+@media screen and (max-width: 582px) {
+    .header h1 {
+        font-size: 16px;
+    }
+
+}
+@media screen and (min-width: 582px) {
+	.header p {
+		font-size: 2em;
+	}
+	/*.navbar-hidden {
+		display: none;
+	}*/
+}
+
+
+
+
+
+
+
+
+
